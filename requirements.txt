@@ -24,4 +24,4 @@ streamlit
 joblib
 numpy
 llmware
-
+python>=3.9.0,<3.12
