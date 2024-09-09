@@ -315,7 +315,7 @@ if __name__ == "__main__":
     #   pull customer_table.csv sample file from the same repo as this example, or alternatively
     #   substitute your own csv to get started
 
-    local_csv_path = "/your/local/path/to/csv/"
+    local_csv_path = "csv/customer_table.csv"
     build_table(db=db, table_name=table_name,load_fp=local_csv_path, load_file="customer_table.csv")
 
     #   get sample agreement to use as a starting point or feel free to substitute your own document
